@@ -29,13 +29,52 @@
         <StackPanel 
             Grid.Column="1"
             Orientation="Vertical">
-             
+
             <Border
                 CornerRadius="10"
                 Background="LightGray"
                 Height="360"
                 Margin="15"
-                Width="230"/>
+                Width="230">
+                <WrapPanel Orientation="Horizontal" Width="230">
+                    
+                    <Image
+                        VerticalAlignment="Top"
+                        Margin="7"
+                        Width="auto"
+                        Height="35"
+                        Source="Images/right.png"/>
+
+                    <Image
+                        VerticalAlignment="Top"
+                        Margin="7"
+                        Width="auto"
+                        Height="35"
+                        Source="Images/left.png"/>
+
+                    <Image
+                        VerticalAlignment="Top"
+                        Margin="7"
+                        Width="auto"
+                        Height="40"
+                        Source="Images/fire.png"/>
+
+                    <Image
+                        VerticalAlignment="Top"
+                        Margin="7"
+                        Width="auto"
+                        Height="40"
+                        Source="Images/medkit.png"/>
+
+                    <Image
+                        VerticalAlignment="Top"
+                        Margin="7"
+                        Width="auto"
+                        Height="40"
+                        Source="Images/exit.png"/>
+
+                </WrapPanel>
+            </Border>
 
             <StackPanel 
                 Orientation="Horizontal">
