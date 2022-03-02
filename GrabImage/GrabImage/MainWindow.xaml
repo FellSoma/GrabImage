@@ -5,26 +5,376 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GrabImage"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="470" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <StackPanel Orientation="Vertical">
-            
+
             <ComboBox
                 Margin="20,10,10,10"
                 HorizontalAlignment="Left"
-                Width="350"/>
+                Width="350"
+                Height="45">
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/Заготовочный цех.png" 
+                               Width="auto"
+                               Height="40"/>
+                        <TextBlock Text="Заготовочный цех" Margin="5,10,0,0"/>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/Механический цех.png" 
+                               Width="auto"
+                               Height="40"/>
+                        <TextBlock Text="Механический цех" Margin="5,10,0,0"/>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/Покрасочный цех.png"
+                               Width="auto"
+                               Height="40"/>
+                        <TextBlock Text="Покрасочный цех" Margin="5,10,0,0"/>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/Сборочный цех.png" 
+                               Width="auto"
+                               Height="40"/>
+                        <TextBlock Text="Сборочный цех" Margin="5,10,0,0"/>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/Упаковочный цех.png"
+                               Width="auto"
+                               Height="40"/>
+                        <TextBlock Text="Упаковочный цех" Margin="5,10,0,0"/>
+                    </StackPanel>
+                </ComboBoxItem>
+
+            </ComboBox>
 
             <Border
                 CornerRadius="10"
                 Background="LightGray"
-                Height="380"
-                Width="500"/>
-            
-            
+                Height="380" 
+                Width="500">
+                <Grid>
+                    <Grid>
+                        <Image Source="Images/Заготовочный цех.png"
+                               Margin="15"/>
+                        <WrapPanel 
+                            Height="380" 
+                            Width="500"
+                            Orientation="Horizontal">
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"
+                                Name="Target"
+                                AllowDrop="True"
+                                Source="Images/exit.png"
+                                Drop="txtTarget_Drop"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                            <Image 
+                                VerticalAlignment="Top"
+                                Width="70"
+                                Height="35"/>
+                        </WrapPanel>
+                    </Grid>
+                    
+                </Grid>
+            </Border>
+
+
         </StackPanel>
         <StackPanel 
             Grid.Column="1"
@@ -34,7 +384,7 @@
                 CornerRadius="10"
                 Background="LightGray"
                 Height="360"
-                Margin="15"
+                Margin="15,25,15,15"
                 Width="230">
                 <WrapPanel Orientation="Horizontal" Width="230">
                     
@@ -42,34 +392,44 @@
                         VerticalAlignment="Top"
                         Margin="7"
                         Width="auto"
+                        x:Name="right"
                         Height="35"
-                        Source="Images/right.png"/>
+                        Source="Images/right.png" 
+                        MouseDown="Drag"/>
 
                     <Image
                         VerticalAlignment="Top"
                         Margin="7"
                         Width="auto"
+                        x:Name="left"
+                        MouseDown="Drag"
                         Height="35"
                         Source="Images/left.png"/>
 
                     <Image
                         VerticalAlignment="Top"
                         Margin="7"
+                        x:Name="fire"
                         Width="auto"
+                        MouseDown="Drag"
                         Height="40"
                         Source="Images/fire.png"/>
 
                     <Image
                         VerticalAlignment="Top"
                         Margin="7"
+                        x:Name="medkit"
                         Width="auto"
+                        MouseDown="Drag"
                         Height="40"
                         Source="Images/medkit.png"/>
 
                     <Image
                         VerticalAlignment="Top"
                         Margin="7"
+                        x:Name="exit"
                         Width="auto"
+                        MouseDown="Drag"
                         Height="40"
                         Source="Images/exit.png"/>
 

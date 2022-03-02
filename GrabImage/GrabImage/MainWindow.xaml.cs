@@ -24,5 +24,25 @@ namespace GrabImage
         {
             InitializeComponent();
         }
+
+        private void Drag(object sender, MouseButtonEventArgs e)
+        {
+            Image img = (Image)sender;
+            DragDrop.DoDragDrop(img,img.Source, DragDropEffects.Copy);
+        }
+
+        private void Target_Drop(object sender, DragEventArgs e)
+        {
+            e.Effects = DragDropEffects.Copy;
+            e.Handled = true;
+            //((Grid)sender).DataContext = (Image)e.Data.GetData(DataFormats.MetafilePicture);
+        }
+
+        private void txtTarget_Drop(object sender, DragEventArgs e)
+        {
+            ((Image)sender).Source = (Decoder)e.Data.GetData(DataFormats.);
+          //  e.Effects = DragDropEffects.Copy;
+          //  e.Handled = true;
+        }
     }
 }

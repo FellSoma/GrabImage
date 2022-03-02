@@ -1,0 +1,16 @@
+I:\OurGits\GrabImage\GrabImage\GrabImage\bin\Debug\GrabImage.exe.config
+I:\OurGits\GrabImage\GrabImage\GrabImage\bin\Debug\GrabImage.exe
+I:\OurGits\GrabImage\GrabImage\GrabImage\bin\Debug\GrabImage.pdb
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\GrabImage.csproj.AssemblyReference.cache
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\GrabImage.csproj.SuggestedBindingRedirects.cache
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\MainWindow.g.cs
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\App.g.cs
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\GrabImage_MarkupCompile.cache
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\GrabImage_MarkupCompile.lref
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\MainWindow.baml
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\GrabImage.g.resources
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\GrabImage.Properties.Resources.resources
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\GrabImage.csproj.GenerateResource.cache
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\GrabImage.csproj.CoreCompileInputs.cache
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\GrabImage.exe
+I:\OurGits\GrabImage\GrabImage\GrabImage\obj\Debug\GrabImage.pdb
